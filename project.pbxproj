@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		08A6006BADF0B5E025225C1C /* Pods_Vietnam2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B701C003785E88E496601 /* Pods_Vietnam2.framework */; };
 		9B19F40D1F7D105D003B2807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B19F40C1F7D105D003B2807 /* AppDelegate.swift */; };
-		9B19F40F1F7D105D003B2807 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B19F40E1F7D105D003B2807 /* ViewController.swift */; };
 		9B19F4121F7D105D003B2807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B19F4101F7D105D003B2807 /* Main.storyboard */; };
 		9B19F4141F7D105D003B2807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B19F4131F7D105D003B2807 /* Assets.xcassets */; };
 		9B19F4171F7D105D003B2807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B19F4151F7D105D003B2807 /* LaunchScreen.storyboard */; };
+		9B3C860E1FB938A20005113A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3C860D1FB938A20005113A /* ViewController.swift */; };
+		9B3C86141FB949850005113A /* TabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3C86131FB949850005113A /* TabVC.swift */; };
+		9B3C86161FB9498F0005113A /* BrowserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3C86151FB9498E0005113A /* BrowserVC.swift */; };
 		9B939C4C1F7FF026004E0EAF /* SearchWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B939C4B1F7FF026004E0EAF /* SearchWord.swift */; };
 		9B939C4E1F7FF14C004E0EAF /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B939C4D1F7FF14C004E0EAF /* SearchResult.swift */; };
 		9BDEA0DF1F9B653A0009C47E /* wordsmenu2bodyIphone.htm in Resources */ = {isa = PBXBuildFile; fileRef = 9BDEA0DC1F9B65390009C47E /* wordsmenu2bodyIphone.htm */; };
@@ -25,11 +27,13 @@
 		2F7934F2EAF4A7F1631B335A /* Pods-Vietnam2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vietnam2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vietnam2/Pods-Vietnam2.release.xcconfig"; sourceTree = "<group>"; };
 		9B19F4091F7D105D003B2807 /* Vietnam2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vietnam2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B19F40C1F7D105D003B2807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9B19F40E1F7D105D003B2807 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B19F4111F7D105D003B2807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B19F4131F7D105D003B2807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B19F4161F7D105D003B2807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B19F4181F7D105D003B2807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B3C860D1FB938A20005113A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B3C86131FB949850005113A /* TabVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabVC.swift; sourceTree = "<group>"; };
+		9B3C86151FB9498E0005113A /* BrowserVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserVC.swift; sourceTree = "<group>"; };
 		9B88B8EA1F8B40B500ACFBC6 /* Instagram-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Instagram-Bridging-Header.h"; sourceTree = "<group>"; };
 		9B939C4B1F7FF026004E0EAF /* SearchWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchWord.swift; sourceTree = "<group>"; };
 		9B939C4D1F7FF14C004E0EAF /* SearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
@@ -83,10 +87,12 @@
 			isa = PBXGroup;
 			children = (
 				9B19F40C1F7D105D003B2807 /* AppDelegate.swift */,
-				9B19F40E1F7D105D003B2807 /* ViewController.swift */,
+				9B3C860D1FB938A20005113A /* ViewController.swift */,
 				9B939C4B1F7FF026004E0EAF /* SearchWord.swift */,
 				9B939C4D1F7FF14C004E0EAF /* SearchResult.swift */,
 				9BDEA0E41F9D52AF0009C47E /* UICheckbox.swift */,
+				9B3C86131FB949850005113A /* TabVC.swift */,
+				9B3C86151FB9498E0005113A /* BrowserVC.swift */,
 				9B19F4101F7D105D003B2807 /* Main.storyboard */,
 				9B19F4131F7D105D003B2807 /* Assets.xcassets */,
 				9B19F4151F7D105D003B2807 /* LaunchScreen.storyboard */,
@@ -235,11 +241,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B3C86141FB949850005113A /* TabVC.swift in Sources */,
+				9B3C860E1FB938A20005113A /* ViewController.swift in Sources */,
 				9BDEA0E51F9D52AF0009C47E /* UICheckbox.swift in Sources */,
 				9B939C4C1F7FF026004E0EAF /* SearchWord.swift in Sources */,
-				9B19F40F1F7D105D003B2807 /* ViewController.swift in Sources */,
 				9B939C4E1F7FF14C004E0EAF /* SearchResult.swift in Sources */,
 				9B19F40D1F7D105D003B2807 /* AppDelegate.swift in Sources */,
+				9B3C86161FB9498F0005113A /* BrowserVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
